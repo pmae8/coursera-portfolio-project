@@ -27,9 +27,9 @@ function Header() {
   return (
     <header className={`header ${visible ? '' : 'header--hidden'}`}>
       <nav className={menuOpen ? 'open' : ''}>
-        <a href="home">Home</a>
-        <a href="projects">Projects</a>
-        <a href="contact">Contact</a>
+        <a href="\home">Home</a>
+        <a href="\projects">Projects</a>
+        <a href="\contact">Contact</a>
         <a href="https://github.com/pmae8" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href="https://www.linkedin.com/in/pmae8/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
       </nav>
