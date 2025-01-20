@@ -48,7 +48,18 @@ function Landing() {
             <div className="landing-content">
                 <img src={avatar} alt="Your Avatar" className="avatar" />
                 <h2>Hi there, I'am PMae!</h2>
-                <h1>Aspiring Software Engineer.</h1>
+                <h1>
+                    Aspiring <span className="highlight">Software Engineer</span>
+                    <span className="wave">👋</span>
+                </h1>
+                <p>
+                    Welcome to my portfolio. I am passionate about creating innovative solutions and continuously learning new technologies. 
+                    My goal is to contribute to impactful projects and grow as a professional in the tech industry.
+                </p>
+                <p>
+                    Feel free to explore my work and get in touch if you would like to collaborate or have any questions. 
+                    Let's build something amazing together!
+                </p>
             </div>
         </section>
     );
