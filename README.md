@@ -1,15 +1,28 @@
-# Getting Started with Create React App
+# My Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+A personal portfolio showcasing various projects built with React.
 
-## Available Scripts
+## Features
+- **Unit Converter**: A user-friendly application that allows you to quickly and accurately convert values between various units, such as length, weight, temperature, currency, and more. [Live Demo](https://maeunit-converter.netlify.app/)
+- **Calculator**: A convenient tool for quick and accurate calculations, whether you're balancing your checkbook or solving complex equations. [Live Demo](https://codepen.io/pmae8/pen/ZEggeXe)
+- **Quotes Generator**: A web application that displays a random quote from a collection of famous or inspirational sayings. It can be used for daily motivation, sparking creativity, or simply enjoying the wisdom of others. [Live Demo](https://randomquotesprov.netlify.app/)
+- **War Card Game**: Perfect for a quick and exciting game night, War is easy to learn and fun for all ages. Get ready for thrilling battles and unexpected twists of fate! [Live Demo](https://mcard-war.netlify.app/)
 
-In the project directory, you can run:
+## Technologies Used
+- React
+- CSS
 
-### `npm start`
+## Installation Instructions
+1. Clone the repository: `https://github.com/pmae8/coursera-portfolio-project`
+2. Navigate to the project directory: `cd my-portfolio`
+3. Install dependencies: `npm install`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
+To run the application locally, use the command: `npm start`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Contributing
+Feel free to submit a pull request or open an issue for any improvements or suggestions.
+
+## License
+This project is licensed under the MIT License.
