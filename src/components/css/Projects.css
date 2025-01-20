@@ -1,0 +1,10 @@
+.projects {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
