@@ -44,10 +44,8 @@ function Projects() {
       <div className="projects-grid">
         {projects.map((project, index) => (
           <ProjectCard key={index} {...project}>
-            <a href={project.link} target="_blank" rel="noopener noreferrer">
               <h3>{project.title}</h3>
               <img src={project.image} alt={project.title} />
-            </a>
           </ProjectCard>
         ))}
       </div>

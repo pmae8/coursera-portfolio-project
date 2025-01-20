@@ -1,11 +1,12 @@
 .project-card {
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s, box-shadow 0.3s;
     background-color: #fff;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
+    justify-content: space-between; 
     align-items: center;
 }
 
@@ -13,12 +14,9 @@
     transform: translateY(-5px);
     box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
-
-.project-card a { 
+.project-card h3 {
     text-decoration: none;
-    color: inherit;
-    display: block;
-    width: 100%;
+    padding-top: 15px;
 }
 
 .project-card img {
@@ -33,13 +31,25 @@
 }
 
 .project-card h3,
-.project-card p {
+.content {
     padding: 10px;
     margin: 0;
     color: #333;
     text-align: center;
 }
 
-.project-card h3{
-    padding-top: 15px;
+
+
+#view {
+    margin-bottom: 4px;
+    padding: 0px 16px; 
+    color: white;
+    background-color: #368eed;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+#view:hover {
+    background-color: #0056b3;
 }

@@ -46,6 +46,7 @@
 .landing p {
     max-width: 600px;
     margin-bottom: 20px;
+    color: black;
 }
 
 .particle {
