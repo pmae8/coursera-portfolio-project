@@ -1,4 +1,3 @@
-// Contact.js
 import React, { useState } from 'react';
 import './css/Contact.css';
 import Swal from 'sweetalert2';
